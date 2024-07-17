@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Configuración General">
+
+        <SwitchPreferenceCompat
+            android:key="enable_notifications"
+            android:title="Habilitar Notificaciones"
+            android:summary="Habilitar o deshabilitar las notificaciones"
+            android:defaultValue="true" />
+
+        <EditTextPreference
+            android:key="username"
+            android:title="Nombre de Usuario"
+            android:summary="Introduce tu nombre de usuario"
+            android:defaultValue=""
+            android:inputType="text" />
+
+        <SwitchPreferenceCompat
+            android:key="dark_mode"
+            android:title="Modo Oscuro"
+            android:summary="Activar o desactivar el modo oscuro"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="permission_setting"
+            android:title="Configurar Permisos"
+            android:summary="Conceder permisos necesarios para la aplicación"
+            android:icon="@android:drawable/ic_popup_disk_full" />
+
+        <Preference
+            android:key="clear_cache"
+            android:title="Borrar Caché"
+            android:summary="Eliminar el caché de la aplicación"
+            android:icon="@android:drawable/ic_delete" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ManualAplicacion"
+        tools:targetApi="31">
+        <activity
+            android:name="FabricantesDocumentacion.Documento58"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento57"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento56"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento55"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento54"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento53"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento52"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento51"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento50"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento49"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento48"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento47"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento46"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento45"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento44"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento43"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento42"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento41"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento40"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento39"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento38"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento37"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento36"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento35"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento34"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento33"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento32"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento31"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento30"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento29"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento28"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento27"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento26"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento25"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento24"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento23"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento22"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento21"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento20"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento19"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento18"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento17"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento16"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento15"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento14"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento13"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento12"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento11"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento10"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento9"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento8"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento7"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento6"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento5"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento4"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento3"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento2"
+            android:exported="false" />
+        <activity
+            android:name="FabricantesDocumentacion.Documento1"
+            android:exported="false" />
+        <activity
+            android:name=".PCarroceriaPZF"
+            android:exported="false" />
+        <activity
+            android:name=".PCarroceriaWabco"
+            android:exported="false" />
+        <activity
+            android:name=".PCarroceriaAireAcondcionado"
+            android:exported="false" />
+        <activity
+            android:name=".PCarroceriaVoith"
+            android:exported="false" />
+        <activity
+            android:name=".PCarroceriaLlantas"
+            android:exported="false" />
+        <activity
+            android:name=".PCarroceriaAyco"
+            android:exported="false" />
+        <activity
+            android:name=".PCarroceriaBusscar"
+            android:exported="false" />
+        <activity
+            android:name=".PCarroceriaPolomex"
+            android:exported="false" />
+        <activity
+            android:name=".PMeritor"
+            android:exported="false" />
+        <activity
+            android:name=".Tabla3"
+            android:exported="false" />
+        <activity
+            android:name=".Tabla2"
+            android:exported="false" />
+        <activity
+            android:name=".GarantiaMostradorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PMercedezActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DireccionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SistemaAireActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuspensionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EjesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DiferencialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransmisionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SistemaElectricoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MarchaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BateriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EscapeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CombustibleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdmisionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RefriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MotorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tabla"
+            android:exported="false" />
+        <activity
+            android:name=".Fabricantes"
+            android:exported="false" />
+        <activity
+            android:name=".GarantiasDoc"
+            android:exported="false" />
+        <activity
+            android:name="actividades.docs.DocKMSOP4"
+            android:exported="false" />
+        <activity
+            android:name="actividades.docs.DocKMSOP3"
+            android:exported="false" />
+        <activity
+            android:name="actividades.docs.DocKMSOP2"
+            android:exported="false" />
+        <activity
+            android:name="actividades.docs.DocKMSOP1"
+            android:exported="false" />
+        <activity
+            android:name="actividades.docs.DocOP3a4"
+            android:exported="false" />
+        <activity
+            android:name=".CheckOP3"
+            android:exported="false" />
+        <activity
+            android:name="actividades.check.CheckOP2"
+            android:exported="false" />
+        <activity
+            android:name="actividades.check.CheckOP1"
+            android:exported="false" />
+        <activity
+            android:name="actividades.docs.DocOP2"
+            android:exported="false" />
+        <activity
+            android:name="actividades.docs.DocOP1"
+            android:label="PDF Viewer" />
+        <activity
+            android:name=".GarantiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KmsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreEntregaActivity"
+            android:exported="false" />
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name="actividades.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

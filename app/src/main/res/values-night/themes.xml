@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ManualAplicacion" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#414142</item>
+        <item name="android:windowBackground">#1A1A1B</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="check_box_text_color">@color/check_box_text_dark</item>
+    </style>
+
+    <style name="ButtonDark" parent="Widget.AppCompat.Button">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

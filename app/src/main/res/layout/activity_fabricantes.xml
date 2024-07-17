@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fabricantes"
+    android:background="@drawable/bg_gradient">
+
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_view" />
+
+    <TextView
+        android:id="@+id/textNickname2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/top_view"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28sp"
+        android:layout_marginBottom="38sp"
+        android:text="Fabricantes"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonBackF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="12dp"
+        android:text="Back"
+        app:icon="@drawable/ic_back"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/textNickname2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="25dp"
+        android:text="Elija un fabricante porfavor:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textNickname2"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Aquí comienzan los TextViews que no deben modificarse de tamaño -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PMercedez"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F.1.- Partes Mercedes Benz"
+                    android:textSize="20sp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:onClick="onClickPMercedez"
+                    android:layout_marginStart="30dp"
+                    />
+
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <!-- Repite este patrón para cada par de Op y DocOp -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PMeritor"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F.2.-  Partes Meritor"
+                    android:textColor="@color/cyan"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:onClick="onClickPMeritor"
+                    />
+
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PCPolomex"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F.3.- Partes Carrocería Polomex"
+                    android:textSize="20sp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:onClick="onClickPCPolomex"
+                    />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PCBusscar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F.4.- Partes Carrocería  Busscar"
+                    android:textSize="20sp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:onClick="onClickPCBusscar"
+                    />
+
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PCAyco"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F.5.- Partes Carrocería  Ayco"
+                    android:textSize="20sp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:onClick="onClickPCAyco"
+                    />
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PAireAcondicionado"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F.6.- Partes Aire acondicionado"
+                    android:textSize="20sp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:onClick="onClickPAireAcondicionado"
+                    />
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PLlantas"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F.7.- Llantas"
+                    android:textSize="20sp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:onClick="onClickPLlantas"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PWabco"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F.8- Partes Wabco"
+                    android:textSize="20sp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:onClick="onClickPWabco"
+                    />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PZF"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F.9- Partes ZF "
+                    android:textSize="20sp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:onClick="onClickPZF"
+                    />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/PVoith"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="F10.- Partes Voith"
+                    android:textSize="20sp"
+                    android:textColor="@color/cyan"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:clickable="true"
+                    android:onClick="onClickPVoith"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="-4dp">
+        <shape android:shape="line">
+            <stroke android:color="#0000FF" android:width="2dp" /> <!-- Color y ancho de la línea -->
+        </shape>
+    </item>
+</layer-list>

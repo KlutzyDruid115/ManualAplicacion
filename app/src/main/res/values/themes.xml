@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ManualAplicacion" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="check_box_text_color">@color/check_box_text_light</item>
+        <item name="buttonStyle">@style/ButtonLight</item>
+    </style>
+
+    <style name="ButtonLight" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/button_bg_light</item>
+        <item name="android:textColor">@color/button_text_light</item>
+    </style>
+
+
+
+    <style name="Theme.ManualAplicacion" parent="Base.Theme.ManualAplicacion" />
+</resources>

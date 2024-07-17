@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#536DFE</color>
+    <color name="indigo">#5C6BC0</color>
+    <color name="orange">#FF9800</color>
+    <color name="cyan">#00FFD9</color>
+    <color name="king">#005EFF</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#1A1A1B</color>
+
+    <color name="colorPrimary">#6300ED</color>
+    <color name="colorAccent">#FF03DAC5</color>
+
+
+    <color name="text_color_light">#000000</color>
+    <color name="text_color_dark">#FFFFFF</color>
+
+    <color name="check_box_text_light">#000000</color>
+    <color name="check_box_text_dark">#FFFFFF</color>
+
+    <color name="button_bg_light">#000000</color>
+    <color name="button_text_light">#FFFFFF</color>
+    <color name="button_bg_dark">#FFFFFF</color>
+    <color name="button_text_dark">#000000</color>
+
+
+</resources>
+
